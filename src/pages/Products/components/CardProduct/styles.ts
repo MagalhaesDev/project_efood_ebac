@@ -4,6 +4,7 @@ import { colors } from "../../../../styles";
 export const CardProductContainer = styled.div`
       padding: .5rem;
       background-color: ${colors.primaryColor};
+      height: 21rem;
 `
 
 export const ImageContainer = styled.div`
@@ -21,8 +22,10 @@ export const ImageContainer = styled.div`
 `
 
 export const DescriptionContainer = styled.div`
+    min-height: 9rem;
     margin-top: .5rem;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     gap: .5rem;
 
@@ -36,6 +39,8 @@ export const DescriptionContainer = styled.div`
 
     p {
         font-size: 0.875rem;
+        font-weight: 300;
+        color: ${colors.secondaryColor};
     }
 `
 
