@@ -72,6 +72,7 @@ export const TitleProduct = styled.div`
         p {
             color: #fff;
             font-weight: lighter;
+            font-size: 2rem;
         }
     }
 
